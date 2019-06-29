@@ -678,6 +678,7 @@
 		70F7E6311EF2A7050026B8A1 /* CastAndCrew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastAndCrew.swift; sourceTree = "<group>"; };
 		70F7E6391EF2A7C70026B8A1 /* test_get_movie_credits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test_get_movie_credits.json; sourceTree = "<group>"; };
 		70F7E63B1EF2A8290026B8A1 /* PeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleTests.swift; sourceTree = "<group>"; };
+		89008A8722C79EC900F6CC3E /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		A7033F2F1C3AE3C4000E40F7 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		A70807151D8E1F2D00176B0A /* TraktKitWatchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TraktKitWatchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70807171D8E1F2D00176B0A /* TraktKitWatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraktKitWatchOS.h; sourceTree = "<group>"; };
@@ -842,7 +843,7 @@
 				700FED3D1F3FC46000169961 /* Genres */,
 				700FED381F3FC3A800169961 /* Movies */,
 				700FED361F3FC38600169961 /* People */,
-				700FED3B1F3FC3CC00169961 /* Scrobbble */,
+				700FED3B1F3FC3CC00169961 /* Scrobble */,
 				700FED391F3FC3B700169961 /* Shows */,
 				700FED341F3FC31800169961 /* Sync */,
 				700FED331F3FC30F00169961 /* Users */,
@@ -957,12 +958,12 @@
 			path = Certifications;
 			sourceTree = "<group>";
 		};
-		700FED3B1F3FC3CC00169961 /* Scrobbble */ = {
+		700FED3B1F3FC3CC00169961 /* Scrobble */ = {
 			isa = PBXGroup;
 			children = (
 				700FED281F3FBD8C00169961 /* ScrobbleResult.swift */,
 			);
-			path = Scrobbble;
+			path = Scrobble;
 			sourceTree = "<group>";
 		};
 		700FED3C1F3FC45B00169961 /* Checkin */ = {
@@ -1291,6 +1292,7 @@
 		A77E863F1B29F09100EABC2D = {
 			isa = PBXGroup;
 			children = (
+				89008A8722C79EC900F6CC3E /* Package.swift */,
 				A723DAAB1B917F7200CA217C /* Common */,
 				A77E864B1B29F09100EABC2D /* TraktKit */,
 				A723DA8A1B917EF300CA217C /* TraktKitMac */,
@@ -1502,6 +1504,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A77E863F1B29F09100EABC2D;
